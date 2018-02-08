@@ -1,0 +1,20 @@
+{
+	"name": "balancer/bors-storage-xml-monolithic",
+	"description": "Monolithic XML file based data storage backend for the BORS© framework",
+	"license": "GPL-3.0-or-later",
+	"type": "library",
+
+	"authors": [
+		{ "name": "Balancer", "email": "balancer@balancer.ru" }
+	],
+
+	"require": {
+		"balancer/bors-core": "*"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"B2\\Storage\\Xml\\": "./"
+		}
+	}
+}
